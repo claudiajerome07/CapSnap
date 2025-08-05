@@ -34,5 +34,32 @@
 
 ---
 
+## Day 1 - Setting up file Structure
 
 
+## Day 2 – Authentication (Register + Login)
+
+### Objective:
+
+Implement secure user authentication using JWT.
+
+### Completed Tasks:
+
+Installed dependencies:
+
+npm install bcryptjs jsonwebtoken
+
+Created User model:
+
+Located at server/models/User.js
+
+Built Register & Login functionality:
+
+Register: /api/auth/register
+Login: /api/auth/login
+
+### Includes:
+
+Password hashing using bcryptjs
+JWT token generation using jsonwebtoken
+Error handling for existing users and invalid credentials
