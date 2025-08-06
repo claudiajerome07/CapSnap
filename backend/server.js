@@ -4,13 +4,14 @@ const dotenv = require('dotenv');
 dotenv.config();
 const cors = require('cors');
 const authRoutes = require('./routes/authRoutes');
-
+const captionRoutes = require('./routes/CaptionRoutes');
 const DBconnect = require('./DataBase/DB');
 const port = process.env.PORT;
 
 app.use(cors());
 app.use(express.json());
 app.use('/api/auth', authRoutes);
+app.use('/api/captions', captionRoutes);
 
 app.get('/test', (req, res) => {
     res.send('Server is running');

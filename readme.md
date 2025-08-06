@@ -63,3 +63,28 @@ Login: /api/auth/login
 Password hashing using bcryptjs
 JWT token generation using jsonwebtoken
 Error handling for existing users and invalid credentials
+
+## Day 3 – Protected Routes + Core API
+
+### Objective:
+Implement core backend APIs for your project.
+
+### Completed Tasks:
+
+    #### Created JWT Middleware:
+        File: server/middleware/authMiddleware.js
+        Verifies JWT token from request headers
+        Attaches user ID to request object if valid
+    #### Identified Core Entity:
+        Entity: Caption
+        Fields: userId, imageUrl, caption, createdAt
+    #### Implemented CRUD API routes:
+        Create: POST /api/captions
+        Read (all): GET /api/captions
+        Read (single): GET /api/captions/:id
+        Update: PUT /api/captions/:id
+        Delete: DELETE /api/captions/:id
+        All routes are protected using JWT middleware to ensure only authenticated users can access them.
+    #### Tested with Postman:
+        Verified token required for all routes
+        Tested create, fetch, update, and delete operations.
