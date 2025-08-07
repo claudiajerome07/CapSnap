@@ -88,3 +88,25 @@ Implement core backend APIs for your project.
     #### Tested with Postman:
         Verified token required for all routes
         Tested create, fetch, update, and delete operations.
+
+## Day 4 – Frontend Setup + Routing
+
+### Objective:
+
+Set up the React frontend application with basic navigation using React Router DOM.
+
+### Completed Tasks:
+
+    #### Initialized Vite React App:
+        npm create vite@latest frontend
+        # Selected: React + JavaScript
+        cd frontend
+        npm install
+    #### Installed Dependencies:
+        npm install axios react-router-dom
+    #### Created Pages:
+        Login.jsx
+        Register.jsx
+        Dashboard.jsx
+    #### Configured React Router:
+        Used BrowserRouter, Routes, and Route in App.jsx to handle routing.
