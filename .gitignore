@@ -1,26 +1,36 @@
-# Node modules
+# === Node modules ===
 node_modules/
 
-# Environment variables
+# === Environment variables ===
 .env
 
-# Logs
+# === Logs ===
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Build output
+# === Build output ===
 dist/
+build/
 
-# Uploads (if storing images locally)
+# === Uploads (if storing images locally) ===
 uploads/
 
-# Cache
+# === Cache ===
 .cache/
 
-# OS / Editor files
+# === OS / Editor files ===
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
+
+# === Vite/React frontend ===
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.vite
+
+# === React build artifacts (optional) ===
+frontend/build/
