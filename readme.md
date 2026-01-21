@@ -1,6 +1,6 @@
-# 📸 Captionify
+# 📸 CapSnap
 
-**Captionify** is a fun and interactive web application that uses AI to generate creative and meaningful captions for your uploaded images. Whether you're posting on social media or just looking for a laugh, Captionify turns your snapshots into stories.
+**CapSnap** is a fun and interactive web application that uses AI to generate creative and meaningful captions for your uploaded images. Whether you're posting on social media or just looking for a laugh, Captionify turns your snapshots into stories.
 
 ---
 
